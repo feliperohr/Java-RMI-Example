@@ -1,0 +1,12 @@
+SERVIDOR 
+
+javac CalcAppImpl.java
+javac Server.java
+start rmiregistry
+java Server
+
+CLIENTE
+
+javac CalcAppRemote.java
+javac Client.java
+java Client
